@@ -1,0 +1,22 @@
+body {
+   display: block; 
+}
+
+h1 {
+    color:magenta;
+}
+
+h2{
+    color:blue;
+}
+
+#tagExample{
+    color:red;
+}
+
+#section1{
+    background-color: red;
+}
+table,tr,td,th{
+    border:1px solid black;
+}

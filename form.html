@@ -7,38 +7,46 @@
 </head>
 <body>
     <h1>Form</h1>
-    <form name="information-form">
-        <label for="name">name : </label>
-        <input type="text" name="name" value="" placeholder="your name here">
+    <form id="information-form">
+        <label >name : 
+            <input type="text"  value="" placeholder="your name here">
+        </label>
         <br/>
         <h4>favourite color</h4>
-        <label for="fav_color">red : </label>
-        <input type="radio" name="fav_color">
+        <label >red : 
+            <input type="radio"  name="fav_color">
+        </label>
         <br/>
-        <label for="fav_color">yellow : </label>
-        <input type="radio" name="fav_color">
+        <label >yellow :
+            <input type="radio"  name="fav_color">     
+        </label>
         <br/>
-        <label for="fav_color">blue : </label>
-        <input type="radio" name="fav_color">
-        <br/>
-        <br/>
-        <label for="rate">rate form : </label>
-        <input type="range" min="0" max="10" step="0.5">
+        <label >blue : 
+            <input type="radio"  name="fav_color">
+        </label>
         <br/>
         <br/>
-        <label for="direction">Choose direction</label>
-        <select name="direction">
+        <label >rate form :
+            <input type="range"  min="0" max="10" step="0.5">
+        </label>
+        <br/>
+        <br/>
+        <label >Choose direction
+            <select >
             <option value="north">north</option>
             <option value="south">south</option>
             <option value="east">east</option>
             <option value="west">west</option>
         </select>
+        </label>
         <br/>
         <br/>
-        <label for="date">select date : </label>
-        <input type="date" name="date" id="date" value="">
+        <label >select date :
+            
+            <input type="date" name="date" value="">
+        </label>
         <br/>
-        <textarea name="description" id="" cols="30" rows="10" value="" placeholder="tell me about something"></textarea>
+        <textarea  id="description" cols="30" rows="10" value="" placeholder="tell me about something"></textarea>
         <br/>
         <input type="color" name="" id="">
         <br>

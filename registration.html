@@ -26,17 +26,35 @@
     
     <!-- insert form here -->
     <form>
-        <label for="firstName">name: </label>
-        <input name="firstName">
-        <br/>
-        <label for="surname">surname: </label>
-        <input name="surname">
-        <br/>
-        <label for="position">position: </label>
-        <input name="position">
-        <br/>
-        <br/>
-        <input type="submit">
+        <fieldset>
+            <legend>your details</legend>
+        <ul>
+        <li>
+          <label > 
+           name:<input autofocus name="name" type="text"> 
+        </label>  
+        </li>
+        <li>
+           <label >
+            surname:<input name="surname" type="text"> 
+        </label> 
+        </li>
+        <li>
+           <label > 
+            position:<input name="position" type="text">
+        </label>  
+        </li>
+        <li>
+            <label>
+               email:<input name='id' type="email" placeholder="you@domain.com" required>
+            </label>
+        </li>
+        </ul>
+        </fieldset>
+        <br>
+        <fieldset>
+            <button type="submit" name="submit">submit</button>
+        </fieldset>
     </form>
 </body>
 </html>

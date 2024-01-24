@@ -67,3 +67,7 @@ h1 {
 .trainer {
   background-image: url("images/trainer.jpg");
 }
+
+nav h6 {
+  display: none;
+}

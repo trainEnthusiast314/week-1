@@ -1,8 +1,13 @@
-p {
-  background-color: darkblue;
-  color: magenta;
+* {
+  display: flexbox;
+  background-color: darkred;
+  border-radius: 15px;
+  font-family: sans-serif;
+  text-align: center;
   margin: 0;
+  padding: 0;
 }
+
 h1 {
   background-color: red;
   color: white;
@@ -10,11 +15,45 @@ h1 {
 }
 #notice {
   font-size: 2em;
-  color: aquamarine;
+  color: rgb(189, 25, 13);
   padding: 3em;
-  background-color: blueviolet;
-  margin-top: 1em;
+  background-image: url("https://wallup.net/wp-content/uploads/2016/02/240837-nature-sunset-sea-waves-clouds-water-colorful.jpg");
+  margin: 0 1em;
 }
 body {
   font-size: 30px;
+}
+.highlight {
+  background-color: lightcoral;
+  margin: 1em 2em;
+  color: aquamarine;
+  padding: 1em;
+}
+[autofocus] {
+  background-color: gold;
+}
+[autofocus]:hover {
+  background-color: red;
+}
+h2 {
+  color: azure;
+  text-decoration: underline;
+}
+[href*="GooGle" i] {
+  text-decoration: none;
+  color: aqua;
+}
+
+[href*="google" i]:visited {
+  text-decoration: none;
+  color: aqua;
+}
+
+[href*="apple" i] {
+  color: white;
+  text-decoration: solid;
+}
+[href*="apple" i]:visited {
+  color: white;
+  text-decoration: solid;
 }

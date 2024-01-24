@@ -1,60 +1,67 @@
-<!doctype HTML>
+<!DOCTYPE html>
 <html>
-<head>
+  <head>
     <title>Book a Course</title>
     <style>
-        ul {
-            list-style: none;
-        }
-        
-        li {
-            margin: 5px 0;
-        }
-        
-        label {
-            display: inline-block;
-            width: 100px;
-            text-align: right;
-        }
+      ul {
+        list-style: none;
+      }
+
+      li {
+        margin: 5px 0;
+      }
+
+      label {
+        display: inline-block;
+        width: 100px;
+        text-align: right;
+      }
     </style>
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <header>
-        <a href="/index.html"><img src="/logo.png" alt="QA Corporate Logo"></a>
-        <h1 style="background-image:url(/trainer.jpg); padding: 4em 1em; color: white; background-size: cover">Course Registration</h1> 
+      <a href="/index.html"><img src="/logo.png" alt="QA Corporate Logo" /></a>
+      <h1
+        style="
+          background-image: url(/trainer.jpg);
+          padding: 4em 1em;
+          color: white;
+          background-size: cover;
+        ">
+        Course Registration
+      </h1>
     </header>
-    
+
     <!-- insert form here -->
     <form>
-        <fieldset>
-            <legend>your details</legend>
+      <fieldset>
+        <legend>your details</legend>
         <ul>
-        <li>
-          <label > 
-           name:<input autofocus name="name" type="text"> 
-        </label>  
-        </li>
-        <li>
-           <label >
-            surname:<input name="surname" type="text"> 
-        </label> 
-        </li>
-        <li>
-           <label > 
-            position:<input name="position" type="text">
-        </label>  
-        </li>
-        <li>
+          <li>
+            <label> name:<input autofocus name="name" type="text" /> </label>
+          </li>
+          <li>
+            <label> surname:<input name="surname" type="text" /> </label>
+          </li>
+          <li>
+            <label> position:<input name="position" type="text" /> </label>
+          </li>
+          <li>
             <label>
-               email:<input name='id' type="email" placeholder="you@domain.com" required>
+              email:<input
+                name="id"
+                type="email"
+                placeholder="you@domain.com"
+                required />
             </label>
-        </li>
+          </li>
         </ul>
-        </fieldset>
-        <br>
-        <fieldset>
-            <button type="submit" name="submit">submit</button>
-        </fieldset>
+      </fieldset>
+      <br />
+      <fieldset>
+        <button type="submit" name="submit">submit</button>
+      </fieldset>
     </form>
-</body>
+  </body>
 </html>

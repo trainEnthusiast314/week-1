@@ -111,3 +111,19 @@ main > article.grid {
   -webkit-filter: grayscale(0%);
   filter: grayscale(0%);
 }
+footer {
+  height: 3em;
+  background-color: #005bab;
+  text-align: center;
+}
+footer img {
+  height: 50%;
+  position: relative;
+  top: 25%;
+  translate: -50%;
+  margin: 0 auto;
+  transition: 0.2s;
+}
+footer img:hover {
+  transform: scale(1.2);
+}

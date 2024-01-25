@@ -1,9 +1,29 @@
 h1 {
   background-color: red;
   color: white;
-  transition: background-color 1s;
-  padding-left: 3em;
+  transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  padding: 4em 0;
 }
 h1:hover {
   background: blue;
+  padding-left: 3em;
+}
+img {
+  width: 15em;
+  height: 15em;
+  transition: all 1s;
+}
+img:hover {
+  display: inline;
+  padding-left: 25em;
+  width: 25em;
+  height: 25em;
+  border-radius: 20px;
+  animation: barrel-roll 5s;
+}
+
+@keyframes barrel-roll {
+  100% {
+    transform: rotate(360deg);
+  }
 }

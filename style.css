@@ -2,7 +2,7 @@ h1 {
   background-color: red;
   color: white;
   transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
-  padding: 4em 0;
+  padding: 1em 0;
 }
 h1:hover {
   background: blue;
@@ -12,12 +12,13 @@ img {
   width: 15em;
   height: 15em;
   transition: all 1s;
+  margin: 0 auto;
 }
 img:hover {
   display: inline;
-  padding-left: 25em;
-  width: 25em;
-  height: 25em;
+  justify-content: c;
+  width: 20em;
+  height: 20em;
   border-radius: 20px;
   animation: barrel-roll 5s;
 }
@@ -25,5 +26,40 @@ img:hover {
 @keyframes barrel-roll {
   100% {
     transform: rotate(360deg);
+  }
+}
+h2 {
+  background-color: green;
+  color: white;
+}
+body {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  font-size: 1em;
+  justify-content: center;
+}
+h3 {
+  background-color: blue;
+  color: white;
+  font-size: 3em;
+}
+ul {
+  background-color: lightcoral;
+  list-style: none;
+}
+li {
+  color: white;
+  font-size: 2em;
+}
+
+@media screen {
+  body {
+    background-color: blue;
+  }
+}
+@media print {
+  body {
+    background-color: green;
   }
 }

@@ -53,9 +53,14 @@ li {
   font-size: 2em;
 }
 
-@media screen {
+@media screen and (max-width: 500px) {
   body {
-    background-color: blue;
+    background-color: gainsboro;
+  }
+}
+@media screen and (min-width: 501px) {
+  body {
+    background-color: cyan;
   }
 }
 @media print {

@@ -119,11 +119,11 @@ footer {
 footer img {
   height: 50%;
   position: relative;
-  top: 25%;
-  translate: -50%;
+  top: 50%;
+  transform: translateY(-50%);
   margin: 0 auto;
   transition: 0.2s;
 }
 footer img:hover {
-  transform: scale(1.2);
+  transform: scale(1.2) translateY(-50%);
 }

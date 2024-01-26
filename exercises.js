@@ -18,6 +18,6 @@ console.log(!5 > 3); //false
 
 console.log(5 + "5"); //55
 console.log(5 + true); //type error --6
-console.log(5 * "5"); //'55555'--55
+console.log(5 * "5"); //'55555'--'25'
 console.log(1 == true); //true
 console.log(1 === true); //false
